@@ -1,3 +1,45 @@
+var beginButton = document.getElementById('begin')
+
+beginButton.addEventListener('click', startGame)
+
+function startGame(){
+    console.log('started')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Which of the following function of String object returns the index within the calling String object of the last occurrence of the specified value?
 lastIndexOf()
 search()
@@ -23,3 +65,7 @@ Line in JS
 None of the above
 
 Which of the following functions of Boolean objects return the primitive value of the Boolean object?
+toSource()
+valueOf()
+toString()
+None of the above
