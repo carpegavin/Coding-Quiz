@@ -1,8 +1,17 @@
+/* imoorting google fonts */
+
+
+
 body {
-    background-color: yellow;
+    background-color: rgb(233, 233, 128);
 }
 
 .prev {
     margin-left: 35%;
     margin-top:15%;
+}
+
+.card {
+    margin-left: 35%;
+    margin-top: 10%;
 }
