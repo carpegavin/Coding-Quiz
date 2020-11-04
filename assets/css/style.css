@@ -1,14 +1,15 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Trebuchet MS';
 }
 
 
 
 body {
     padding: 100px;
-    margin-top: 60%;
+    margin-top: 0%;
     display: flex;
+    flex-wrap: wrap;
     width: 80vw;
     height: 40vw;
     justify-content: center;
@@ -29,17 +30,23 @@ body {
 }
 
 .btn:hover {
-    color:red;
+    color:rgb(238, 245, 236);
+    font-size: 20px;
+    background-color:rgb(155, 18, 25);
+    border-radius: 10px;
+    padding: 5px;
+    
 }
 #nextBtn {
     cursor: pointer;
 }
 ul {
+    
     background-color:rgb(201, 224, 201);
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    border-radius: 15px;
+    border-radius: 10px;
     padding-left: 6%;
     padding-top: 0%;
     padding-bottom: 7%;
@@ -52,15 +59,18 @@ ul {
 }
 
 .simple {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    margin-right: 8%;
+    text-decoration: underline;
 }
 
 h1 {
-    margin-left: 19%;
+    margin-left: 17%;
+    font-size: 35px;
 }
 
-.Q1, .Q2, .Q3, .Q4, .Q5 {
+.Q1, .Q2, .Q3, .Q4, .Q5, .high {
     text-decoration: bold;
     font-size: 20px;
 }
