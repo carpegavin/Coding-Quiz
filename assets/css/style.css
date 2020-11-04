@@ -1,8 +1,20 @@
-/* imoorting google fonts */
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 
 
 body {
+    padding: 100px;
+    margin-top: 60%;
+    display: flex;
+    width: 80vw;
+    height: 40vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9%;
+
     background-color: rgb(233, 233, 128);
 }
 
@@ -12,7 +24,55 @@ body {
     cursor: pointer;
 }
 
-h1 {
-    background-color: red;
-    margin-left: 25%;
+.btn {
+    cursor:pointer;  
 }
+
+.btn:hover {
+    color:red;
+}
+#nextBtn {
+    cursor: pointer;
+}
+ul {
+    background-color:rgb(201, 224, 201);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 15px;
+    padding-left: 6%;
+    padding-top: 0%;
+    padding-bottom: 7%;
+    text-justify: center;
+    
+}
+
+.class {
+    
+}
+
+.simple {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 19%;
+}
+
+.Q1, .Q2, .Q3, .Q4, .Q5 {
+    text-decoration: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+/* .answerContainer {
+    width: 800px;
+    max-width: 80%;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 10px; */
+

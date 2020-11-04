@@ -1,4 +1,4 @@
-var beginButton = document.getElementById('begin')
+var beginButton = document.getElementById('startBtn')
 
 beginButton.addEventListener('click', startGame)
 

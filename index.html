@@ -11,46 +11,92 @@
 
 </head>
 
+<!-- BUTTONS NEEDED 
+BEGIN 
+-->
 
 <body>
-    <div class ="conatiner">
+    <div class ="answerContainer">
         <div id = "questions-container" class = "hide">
-            <div id = "questions">Question</div>
-            <div id = "answer-buttons" class = "btn-grid"></div>
-                <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button>
-                <button class="btn">Answer 5</button>
-        <div class = "controls"></div>
+            <div class = "controls"></div>
         <h1>The Opprobrious Quiz</h1>
-            <ul class = rules> Simple Rules
+        
+            <ul class = rules> 
+                <p class = "simple"> The Rules Are Simple</p>
                 <li>You have 60 seconds to complete this</li>
                 <li>Each incorrect answer subtracts 5 seconds from the timer</li>
                 <li>There are 5 questions and only the most Godly of Coders can pass it</li>
                 <li>Luck does not exist</li>
             </ul>
-          <button id = "startBtn" class = "start"> Let's Begin</button>
-          <button id = "nextBtn" class = "nextBtnhide">Next</button>
+          
          </div>
+
+         <button id = "startBtn" 
+         class = "start"> Let's Begin</button>
+         <button id = "nextBtn" class = "nextBtnhide">Next</button>
+
+         <ul class = questions> 
+            <p class = "Q1"> Which of the following function of String object <br>returns the index within the calling String object of <br>the last occurrence of the specified value?</p>
+            <li class="btn">lastIndexOf()</li><br>
+            <li class="btn">search()</li><br>
+            <li class="btn">substr()</li><br>
+            <li class="btn">indexOf()</li><br> <!--answer-->
+        </ul>
+
+        <ul class = questions> 
+            <p class = "Q2"> Which of the following function of Array object <br>returns true if at least one element in this array satisfies the <br>provided testing function??</p>
+            <br>
+            <li class="btn">reverse()</li><br>
+            <li class="btn">shift()</li><br>
+            <li class="btn">slice()</li><br>
+            <li class="btn">some()</li><br> <!--answer-->
+        </ul>
+
+        <ul class = questions> 
+            <p class = "Q3"> Which of the following is true about typeof operator in JavaScript?</p>
+            <br>
+            <li class="btn">The typeOf is a unary operator that<br> is placed before its single operand, <br>which can be of any type()</li><br>
+            <li class="btn">It's value is a string indicating the data type of the operand</li><br> <!--answer-->
+            <li class="btn">Both of the above</li><br>
+            <li class="btn">None of the above</li><br>
+        </ul>
         
-            <div id = Q!> Question 1</div>
-            <div id = Q2> Question 2</div>
-            <div id = Q3> Question 3</div>
-            <div id = Q4> Question 4</div>
-            <div id = Q5> Question 5</div>   
-      </div>
+        <ul class = questions> 
+            <p class = "Q4"> Executable single line of Script is called as</p>
+            <br>
+            <li class="btn">Breakpoint in JS</li><br>
+            <li class="btn">Statement in Javascript</li><br> <!--answer-->
+            <li class="btn">Line in JS</li><br>
+            <li class="btn">None of the above</li><br>
+        </ul>
+             
+        <ul class = questions> 
+            <p class = "Q5"> Which of the following functions of Boolean objects return <br>the primitive value of the Boolean object?</p>
+            <br>
+            <li class="btn">toSource()</li><br> <!--answer-->
+            <li class="btn">valueOf()</li><br>
+            <li class="btn">toString()</li><br>
+            <li class="btn">None of the above</li><br>
+        </ul>
+        
+    
+        
+    
+    
+    
+    
+    </div>
 
     
 
 
 
-    </div>
+    </div> 
  
     
     
     
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
     
     <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
