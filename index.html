@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    
     
     
     <title>Seven Layer Quiz</title>
@@ -16,7 +19,7 @@ BEGIN
 -->
 
 <body>
-    <div class ="answerContainer">
+    
         <div id = "questions-container" class = "hide">
             <div class = "controls"></div>
         <h1>The Opprobrious JS Quiz</h1>
@@ -30,12 +33,12 @@ BEGIN
                 <li>**Luck does not exist**</li><br>
                  
             </ul>
-          
+            <button id = "startBtn" class = "start"> Let's Begin</button>
+            <button id = "restartBtn" class = "restart">Restart</button>
          </div>
 
-         <button id = "startBtn" class = "start"> Let's Begin</button>
-         <button id = "restartBtn" class = "restart">Restart</button>
          
+<div class ="answerContainer">   
          <ul class = question1> 
             <p class = "Q1"> Which of the following function of String object <br>returns the index within the calling String object of <br>the last occurrence of the specified value?</p>
             <button class="btn">A. lastIndexOf()</button><br><br>
@@ -82,13 +85,13 @@ BEGIN
 
         <ul class = "high">High Scores of the Gods</ul>
         
-    
+</div>  
         
     
     
     
     
-    </div>
+    
 
     
 
@@ -100,7 +103,7 @@ BEGIN
     
     
     
-    
+    <script type="text/javascript" src="./assets/js/questions.js"></script>
     <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 </html>
