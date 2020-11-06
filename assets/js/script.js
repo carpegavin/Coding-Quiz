@@ -1,12 +1,30 @@
 var beginButton = document.getElementById('startBtn')
-
 beginButton.addEventListener('click', startGame)
+
+
+var quiz = document.querySelector('#quiz');
+var heading = document.querySelector('#heading');
+var quizContainer = document.querySelector('#quizContainer');
+var Q1 = document.querySelector('#Q1');
+var Q2 = document.querySelector('#Q2');
+var Q3 = document.querySelector('#Q3');
+var Q4 = document.querySelector('#Q4');
+var Q5 = document.querySelector('#Q5');
+var questions = 0;
+var timer;
+var timerInterval;
+var display;
+
+
+function showResults(){}
+function buildQuiz(){}
+buildQuiz();
 
 function startGame(){
     console.log('started')
 }
 
-alert('file');
+
 
 
 
