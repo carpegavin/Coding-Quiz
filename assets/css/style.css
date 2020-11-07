@@ -19,6 +19,10 @@ body {
     background-color: rgb(233, 233, 128);
 }
 
+.beginPage {
+    /* visibility: hidden; */
+}
+
 #highScores {
     margin-right: 50%;
 }
@@ -30,6 +34,18 @@ body {
     cursor: pointer;
     border-radius: 10px;
     font-size: 25px;
+}
+
+#continueBtn {
+    background-color: rgba(247, 151, 164, 0.918);
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#continueBtn:hover {
+    background-color: turquoise;
 }
 
 #startBtn:hover {

@@ -12,14 +12,14 @@
     
     <div id = "quiz">
         <div id = "heading" class = "header">
-            
+
             <h5 id = "oppro">The Opprobrious JS Quiz</h5>
             
-                
-                
-           
-                
+            <div class = "beginPage">
                 <ul id = rules> 
+                    
+                
+                    
                 <p class = "simple"> The Rules Are Simple</p>
                     <li>You have 60 seconds to complete this quiz</li><br>
                     <li>Each incorrect answer subtracts 5 seconds from the timer</li><br>
@@ -30,11 +30,14 @@
                 
                  <button id = "startBtn"> Let's Begin</button>
                 <button id = "restartBtn"> Restart</button>
+                <button id = "continueBtn"> Next</button>
                 <!-- <button id = "submitBtn"> Submit</button> -->
                 
                 <div id = timer>
                     <span id="countdown">60</span> second<span id="plural">s</span>
                 </div>
+
+            </div>
                 
                 <!-- <button id = "highBtn">Highscores</button> -->
         </div>
@@ -50,7 +53,7 @@
             </ul>
                 <br><br>
         
-            <ul class = question2> 
+            <ul class = "question2"> 
                 <p id = "Q2"> Which of the following function of Array object <br>returns true if at least one element in this array satisfies the <br>provided testing function??</p>
                 <br>
                 <button class="btn">A. reverse()</button><br><br>
@@ -105,7 +108,7 @@
 
         </div>
     </div>  
-        
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>   
     <script type="text/javascript" src="./assets/js/questions.js"></script>
     <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
