@@ -1,25 +1,59 @@
-var beginButton = document.getElementById('startBtn')
+const  beginButton = document.getElementById('startBtn')
 beginButton.addEventListener('click', startGame)
 
 //how do i reset the questions and the clock?
-var restart = document.getElementById('restartBtn')
-restart.addEventListener('click', startGame)
+// const restart = document.getElementById('restartBtn')
+// restart.addEventListener('click', startGame)
 
-var quiz = document.querySelector('#quiz');
-var heading = document.querySelector('#heading');
-var quizContainer = document.querySelector('#quizContainer');
-var Q1 = document.querySelector('#Q1');
-var Q2 = document.querySelector('#Q2');
-var Q3 = document.querySelector('#Q3');
-var Q4 = document.querySelector('#Q4');
-var Q5 = document.querySelector('#Q5');
-var currentQuestionIndex = 0;
-var hide;
-var display;
+const start = document.querySelector('#startBtn');
+const rules = document.querySelector('#rules');
+const submit = document.querySelector('#submit');
+const restart = document.querySelector('.buttons #restartBtn');
+const continuE = document.querySelector('.buttons #continueBtn');
+const beginPage = document.querySelector('.beginPage');
+const quiz = document.querySelector('#quiz');
+const heading = document.querySelector('#heading');
+const quizContainer = document.querySelector('#quizContainer');
+const Q1 = document.querySelector('#Q1');
+const Q2 = document.querySelector('#Q2');
+const Q3 = document.querySelector('#Q3');
+const Q4 = document.querySelector('#Q4');
+const Q5 = document.querySelector('#Q5');
+const currentQuestionIndex = 0;
+
+
+
+//when start button is clicked, hide begin page. FIRST ATTEMPT.
+
+// startBtn.onclick = () =>{
+//     function hide (beginPage){
+//         beginPage = beginPage.length ? beginPage : [beginPage];
+//         for (const index = 0; index < beginPage.length; index++){
+//             beginPage[index].style.display = 'none';
+//         }
+//     }
+// }
+
+//when start button is clicked, hide the begin page. SECOND ATTEMPT.
+//this should work. Not sure why it wont! I REMOVED THE ONCLICK FUNCTION FROM THE HTML.
+
+// function myFunction() {
+//     var x = document.getElementById("");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
+//   }
+
+
+
 
 
 function startGame(){
     console.log('started');
+
+    
     
     //TIMER
     var seconds = document.getElementById("countdown").textContent;
@@ -31,6 +65,10 @@ function startGame(){
         displayQuestion()
         
     },1000); 
+
+    
+
+
 
 
 
@@ -44,29 +82,6 @@ document.querySelector('#submitBtn').addEventListener('submit', function (event)
   });
    
 }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // /* when user clicks on begin 
 // ON CLICK FUNCTION
 // NEW SCREEN APPEARS

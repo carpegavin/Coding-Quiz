@@ -17,22 +17,20 @@
             
             <div class = "beginPage">
                 <ul id = rules> 
-                    
-                
-                    
-                <p class = "simple"> The Rules Are Simple</p>
+                    <p class = "simple"> The Rules Are Simple</p>
                     <li>You have 60 seconds to complete this quiz</li><br>
                     <li>Each incorrect answer subtracts 5 seconds from the timer</li><br>
                     <li>There are 5 questions and only the most Godly of Coders can pass it</li><br>
                     <li>If you fail, may your eyelids be chewed-off by a bat</li><br>
                     <li>**Luck does not exist**</li><br>
                  </ul>
-                
-                 <button id = "startBtn"> Let's Begin</button>
+                <br>
+                <br>
+                <div class = "buttons">
+                 <button  id = "startBtn"> Let's Begin</button>
                 <button id = "restartBtn"> Restart</button>
                 <button id = "continueBtn"> Next</button>
-                <!-- <button id = "submitBtn"> Submit</button> -->
-                
+                </div>
                 <div id = timer>
                     <span id="countdown">60</span> second<span id="plural">s</span>
                 </div>
@@ -42,7 +40,8 @@
                 <!-- <button id = "highBtn">Highscores</button> -->
         </div>
 
-         
+         <br>
+         <br>
         <div id ="quizContainer">   
             <ul class = question1> 
                 <p id = "Q1"> Which of the following function of String object <br>returns the index within the calling String object of <br>the last occurrence of the specified value?</p>
@@ -96,7 +95,7 @@
             <h1>Great Job. You did it!</h1>
             <h2>Final Score: <span id= "score"></span></h2>
             <h3 id = "initials">Type intials</h3>
-            <form id = "submit">
+            <form id = "submition">
                 <input id = "inputInitials" placeholder = "Your Intitials" type = "text">
                 <button id = "submit" type = "submit">Submit</button>
             </form>
