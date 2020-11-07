@@ -1,6 +1,9 @@
 var beginButton = document.getElementById('startBtn')
 beginButton.addEventListener('click', startGame)
 
+//how do i reset the questions and the clock?
+var restart = document.getElementById('restartBtn')
+restart.addEventListener('click', startGame)
 
 var quiz = document.querySelector('#quiz');
 var heading = document.querySelector('#heading');
@@ -10,19 +13,50 @@ var Q2 = document.querySelector('#Q2');
 var Q3 = document.querySelector('#Q3');
 var Q4 = document.querySelector('#Q4');
 var Q5 = document.querySelector('#Q5');
-var questions = 0;
-var timer;
-var timerInterval;
+var currentQuestionIndex = 0;
+var hide;
 var display;
 
 
-function showResults(){}
-function buildQuiz(){}
-buildQuiz();
-
 function startGame(){
-    console.log('started')
+    console.log('started');
+    
+    //TIMER
+    var seconds = document.getElementById("countdown").textContent;
+    var countdown = setInterval(function(){
+        seconds--;
+        (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
+        document.getElementById("countdown").textContent = seconds;
+        if (seconds <= 0) clearInterval(countdown);
+        displayQuestion()
+        
+    },1000); 
+
+
+
+//local storage
+
+document.querySelector('#submitBtn').addEventListener('submit', function (event) {
+    event.preventDefault();
+    var initials = document.querySelector('#initials').value;
+    localStorage.setItem(initials, timer);
+    displayScores();
+  });
+   
 }
+
+    
+
+
+
+
+
+
+
+
+
+
+
 
 
 
