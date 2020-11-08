@@ -82,6 +82,8 @@ document.querySelector('#submitBtn').addEventListener('submit', function (event)
   });
    
 }
+
+    
 // /* when user clicks on begin 
 // ON CLICK FUNCTION
 // NEW SCREEN APPEARS
