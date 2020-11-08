@@ -15,6 +15,10 @@ https://carpegavin.github.io/The-Opprobrious-JS-Quiz/
 ## To satisfy the requirements of the acceptance criteria I did the following:
 - Created a framework using HTML and design using CSS.
 - Set two separate JS files -- one for the logic and one for the questions and answers.
+- Set const variables for buttons, questions/answers, divs and containers.
+- Set a function to begin the timer 
+
+- * This is as far as I have gotten. I am struggling to use JS to utilize the HTML framework which I have the questions and answers imbedded in.
 
 
 
