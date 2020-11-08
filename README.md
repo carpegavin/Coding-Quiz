@@ -12,6 +12,10 @@ https://carpegavin.github.io/The-Opprobrious-JS-Quiz/
 - When all of the questions have been answered OR the timer reaches zero, the game ends.
 - When the game ends, the user is prompted to enter their intials and score.
 
+## To satisfy the requirements of the acceptance criteria I did the following:
+- Created a framework using HTML and design using CSS.
+- Set two separate JS files -- one for the logic and one for the questions and answers.
+
 
 
 
